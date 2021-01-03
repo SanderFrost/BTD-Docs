@@ -27,8 +27,8 @@ namespace BetterFastForward
 
             Settings settings =  NKHook6.Api.Utilities.JsonUtils.Load<Settings>();  //load settings from file
             
-            TimeManager.compromisedFastFowardRate = (int)settings.newSpeed; //Set current speed. Convert newSpeed from a float to int
-            TimeManager.maxSimulationStepsPerUpdate = settings.newSpeed;    //Set max speed to the same as new current speed
+            TimeManager.compromisedFastFowardRate = (int)settings.newSpeed;10 //Set current speed. Convert newSpeed from a float to int
+            TimeManager.maxSimulationStepsPerUpdate = settings.newSpeed;10    //Set max speed to the same as new current speed
         }
     }
 }
